@@ -4,4 +4,5 @@ export default function Page() {
       <h1 className="text-2xl font-bold">Hello Academic Agent</h1>
     </main>
   );
+  
 }
