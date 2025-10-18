@@ -1,9 +1,10 @@
-import './styles/globals.css';
+import styles from './page.module.css';
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function Page() {
   return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
+    <div className={styles.container}>
+      <h1 className={styles.title}>Welcome to Academic Agent</h1>
+    </div>
   );
 }
+
